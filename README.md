@@ -19,7 +19,11 @@
 
 ## 📦 Kurulum
 
-1. Projeyi indir veya kopyala:
+TermX'i yüklemek için iki yöntem var:
+
+### Yöntem 1: Otomatik Kurulum (Önerilen)
+
+1. Depoyu klonlayın:
    ```bash
-   git clone https://github.com/huseyin/termx.git
-   cd termx
+   git clone https://github.com/ip3kci/termx-cli.git
+   cd termx-cli

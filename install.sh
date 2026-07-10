@@ -4,7 +4,18 @@
 # Version: 4.0.0-final
 # Description: 950+ satırlık tam kapsamlı kurulum, onarım ve yapılandırma aracı
 # ==============================================================================
-
+# Eski kalıntıları agresif temizle
+echo "Eski bulfzf tanımları aranıyor..."
+for file in ~/.bashrc ~/.profile ~/.bash_profile ~/.bash_aliases ~/.zshrc /etc/bash.bashrc /etc/profile; do
+    if [ -f "$file" ]; then
+        # Fonksiyon tanımını sil (bulfzf () veya function bulfzf)
+        sed -i '/bulfzf\s*()/,/^}/d' "$file"
+        sed -i '/function\s*bulfzf/,/^}/d' "$file"
+        # Alias sil
+        sed -i '/alias bulfzf/d' "$file"
+    fi
+done
+hash -r
 set -euo pipefail  # Hata durumunda dur, tanımsız değişkenleri yakala
 
 # --- Renkler ve Semboller ---

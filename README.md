@@ -25,5 +25,17 @@ TermX'i yüklemek için iki yöntem var:
 
 1. Depoyu klonlayın:
    ```bash
+   
    git clone https://github.com/ip3kci/termx-cli.git
+   
+2. Klasörün içine Girin
+
    cd termx-cli
+   
+4. Gerekli Izinleri verin:
+
+   chmod +x install.sh bulfzf_cleaner.sh
+   
+ 5. Çalıştırın
+    
+   ./install.sh

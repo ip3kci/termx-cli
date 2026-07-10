@@ -30,12 +30,12 @@ TermX'i yüklemek için iki yöntem var:
    
 2. Klasörün içine Girin
 
-   cd termx-cli
+       cd termx-cli
    
 4. Gerekli Izinleri verin:
 
-   chmod +x install.sh bulfzf_cleaner.sh
+       chmod +x install.sh bulfzf_cleaner.sh
    
  5. Çalıştırın
     
-   ./install.sh
+        ./install.sh

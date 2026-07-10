@@ -34,8 +34,8 @@ TermX'i yüklemek için iki yöntem var:
    
 4. Gerekli Izinleri verin:
 
-       chmod +x install.sh bulfzf_cleaner.sh
-   
+       chmod +x install.sh bulfzf_cleaner.sh bulfzf.sh
+    
  5. Çalıştırın
     
         ./install.sh
